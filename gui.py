@@ -21,8 +21,6 @@ window = gui.Window('To-Do App',
 while True:
     event, values = window.read()
 
-    print(event)
-    print(values)
     if event == "Add":
         todos = get_todos()
         new_todo = values['todo']
